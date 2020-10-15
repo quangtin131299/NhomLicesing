@@ -10,10 +10,19 @@ int hieu(int a, int b)
 int tich(int a, int b);
 float thuong(int a, int b);
 int main()
-{	
-
+	
+{
+	
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
+	
+	cout<<"tong la :"<<tong(6,5);
 	cout<<"Hieu la: "<<hieu(6,5);
 	system("pause");
 	return 0;
+}
+int tong(int a ,int b)
+{
+	int sum =0;
+	sum = a+b;
+	return sum;	
 }
